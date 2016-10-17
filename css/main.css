@@ -1,0 +1,90 @@
+html {
+  font-family: "Georgia", serif;
+  background-color: #ffe500;
+  box-sizing: border-box;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #cc1465;
+  display: block;
+  font-family: 'Sigmar One', cursive;
+  font-size: 3rem;
+  margin:0em;
+  list-style-type: none;
+  text-align: center;
+  display: block;
+
+}
+
+h2 {
+  color: #cc1465;
+  display: block;
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.875rem;
+  margin: 0.5em 0.2em;
+  list-style-type: none;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  text-align: left;
+}
+
+i {
+  text-align: center;
+}
+
+section {
+border: 0;
+background-color: #fff;
+margin: 0em;
+padding: 0.5em;
+font-size: 1.125rem;
+}
+
+nav {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul {
+  font-size: 1.125rem;
+  margin: 0.3em 0em;
+  padding: 0;
+}
+
+li {
+  margin: 0.3em 0em;
+  display: inline-block;
+  padding:
+}
+
+.cards a {
+  display: inline-block;
+  color: #fff;
+  background-color: #b2a212;
+  text-decoration: none;
+  padding: 0.2em 0.5em 0.3em;
+  margin: 0em;
+  border-radius: 4px;
+}
+
+.cards a:hover {
+  text-decoration: none;
+  background-color: #cc1465;
+}
+
+.cards .current {
+  background-color: #cc1465;
+}

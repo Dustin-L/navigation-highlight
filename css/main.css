@@ -1,5 +1,5 @@
 html {
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   background-color: #ffe500;
   box-sizing: border-box;
   line-height: 1.5;
@@ -11,23 +11,21 @@ html {
 }
 
 h1 {
-  color: #cc1465;
+  color: #b20953;
   display: block;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
-  margin:0em;
+  margin: 0 0 0.2em;
   list-style-type: none;
   text-align: center;
-  display: block;
-
 }
 
 h2 {
-  color: #cc1465;
+  color: #b20953;
   display: block;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
-  margin: 0.5em 0.2em;
+  margin: 0.5em 0.0em;
   list-style-type: none;
   text-align: left;
 }
@@ -38,6 +36,8 @@ body {
 
 p {
   text-align: left;
+  font-size: 1rem;
+  color: #2f2d13;
 }
 
 i {
@@ -45,11 +45,11 @@ i {
 }
 
 section {
-border: 0;
-background-color: #fff;
-margin: 0em;
-padding: 0.5em;
-font-size: 1.125rem;
+  border: 0;
+  background-color: #fff;
+  margin: 0em;
+  padding: 0.5em;
+  font-size: 1.125rem;
 }
 
 nav {
@@ -67,10 +67,10 @@ ul {
 li {
   margin: 0.3em 0em;
   display: inline-block;
-  padding:
+  padding: 0;
 }
 
-.cards a {
+a {
   display: inline-block;
   color: #fff;
   background-color: #b2a212;
@@ -80,11 +80,21 @@ li {
   border-radius: 4px;
 }
 
-.cards a:hover {
+a:hover {
   text-decoration: none;
   background-color: #cc1465;
 }
 
-.cards .current {
-  background-color: #cc1465;
+.current {
+  background-color: #b20953;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  color: #2f2d13;
 }
